@@ -1,0 +1,33 @@
+.d-flex {display: flex;}
+.jc-between {justify-content: space-between;}
+.jc-center {justify-content: center;}
+.jc-end {justify-content: flex-end;}
+.ai-center {align-items: center;}
+
+.pxy-10px {padding: 10px;}
+.mr-5px {margin-right: 5px;}
+
+.w-920px {width: 920px;}
+.w-350px {width: 350px;}
+
+.h-500px {height: 500px;}
+
+.border-0 {border: 0;}
+
+.bb-1px {border-bottom: 1px solid;}
+.bc-blue {border-color: blue;}
+
+.b-skyblue {background: skyblue;}
+
+.c-red {color: red;}
+.c-green {color: green;}
+
+.t-center {text-align: center;}
+
+.f-24px {font-size: 24px;}
+.f-32px {font-size: 32px;}
+.f-40px {font-size: 40px;}
+
+.arial {font-family: arial;}
+
+.pointer {cursor: pointer;}

@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body class="d-flex jc-center">
+	<div class="container w-920px">
+		<!-- Header -->
+		<header class="d-flex jc-between">
+			<div class="computer w-350px t-center f-24px pxy-10px bb-1px bc-blue c-red">Computer</div>
+			<div class="you w-350px t-center f-24px pxy-10px bb-1px bc-blue c-red">You</div>
+		</header>
+
+		<!-- Body -->
+		<section class="d-flex jc-between">
+			<div class="choosecomp h-500px  d-flex jc-center ai-center">
+				<img src="left_fist.png" alt="left-hand" class="hands img base animate__shakeY animate__infinite animate__slow">
+				<!-- 
+				<img src="paper.png" alt="paper" class="img">
+				<img src="rock.png" alt="rock" class="img">
+				<img src="scissors.png" alt="scissors" class="img"> 
+				-->
+			</div>
+			<div class="result h-500px d-flex jc-center ai-center f-40px c-green t-center arial">
+				<span>Choose your weapon</span>
+				<!-- 
+				<span>Shoot!</span>
+				<span>Tie!</span>
+				<span>You Win!</span>
+				<span>You Lose!</span>
+				-->
+			</div>
+			<div class="chooseyou h-500px  d-flex jc-center ai-center">
+				<img src="right_fist.png" alt="right-hand" class="hands img base animate__shakeY animate__infinite animate__slow">
+				<!-- 
+				<img src="paper.png" alt="paper">
+				<img src="rock.png" alt="rock">
+				<img src="scissors.png" alt="scissors">
+				-->
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="d-flex jc-end">
+			<button id="rock" class="js-btn b-skyblue border-0 pxy-10px mr-5px f-24px pointer">rock</button>
+			<button id="paper" class="js-btn b-skyblue border-0 pxy-10px mr-5px f-24px pointer">paper</button>
+			<button id="scissors" class="js-btn b-skyblue border-0 pxy-10px mr-5px f-24px pointer">scissors</button>
+		</footer>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
